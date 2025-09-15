@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.left-section {
+  width: 32.5%;
+}
+
+.image-container {
+  position: relative;
+}
+
+.bgimage {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+.logo-container {
+  position: absolute;
+  top: 180px;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.2rem 0;
+  gap: 1rem;
+}
+
+.right-section {
+}
