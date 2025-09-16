@@ -108,9 +108,9 @@ body {
 }
 
 input[type="text"],
-[type="email"],
-[type="tel"],
-[type="password"] {
+input[type="email"],
+input[type="tel"],
+input[type="password"] {
   border: 1px solid #e5e7eb;
   height: 1.5rem;
   width: 15rem;
@@ -123,6 +123,10 @@ input[type="password"]:focus {
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
   -webkit-box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="password"]:invalid {
+  border: 1px solid red;
 }
 
 .form-actions {
@@ -140,7 +144,7 @@ button[type="submit"] {
   margin-bottom: 1.8rem;
   background-color: #596d48;
   color: #ffffff;
-  font-size: 0.9 rem;
+  font-size: 0.9rem;
   font-weight: bold;
   border-radius: 5px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
